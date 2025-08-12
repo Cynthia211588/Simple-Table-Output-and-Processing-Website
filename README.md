@@ -14,25 +14,20 @@ This is a simple Laravel project that reads a default CSV file included in the p
   - **Beta** = A15 ÷ A7 (integer division)
   - **Charlie** = A13 × A12
 - Shows calculation results in a separate table.
-- Easy to update CSV file directly.
-- Beginner-friendly code.
-- Ready for deployment (e.g., Heroku).
 
 ---
 
-## Setup Instructions
+## What you need to prepare?
+1. Make sure the CSV file exists in public/files/Table_Input.csv with this format:
+<br>
+Index,Value
+A1,41
+A2,18
+A3,21
+...
+A20,10
 
-### Prerequisites
+2. Run the application
+Start the built-in PHP server: <br>
+php artisan serve
 
-- PHP 8+
-- Composer
-- Git
-- Code editor like VS Code
-
-### Installation Steps
-
-1. Clone the repo:
-
-   ```bash
-   git clone <your-repo-url>
-   cd <your-project-folder>
