@@ -30,4 +30,4 @@ A20,10
 
 2. Run the application  
 Start the built-in PHP server:  
-php artisan serve
+- php artisan serve
