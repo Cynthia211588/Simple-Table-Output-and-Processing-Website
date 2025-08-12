@@ -18,8 +18,7 @@ This is a simple Laravel project that reads a default CSV file included in the p
 ---
 
 ## What you need to prepare?
-1. Make sure the CSV file exists in public/files/Table_Input.csv with this format:
-<br>
+1. Make sure the CSV file exists in `public/files/Table_Input.csv` with this format:
 Index,Value
 A1,41
 A2,18
@@ -27,7 +26,7 @@ A3,21
 ...
 A20,10
 
-2. Run the application
-Start the built-in PHP server: <br>
-php artisan serve
 
+2. Run the application  
+Start the built-in PHP server:  
+php artisan serve
